@@ -42,6 +42,12 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+
+/* 
+font-family: 'Libre Franklin', sans-serif;
+font-family: 'Sorts Mill Goudy', serif; 
+*/
+
 html {
   background: black;
 }
@@ -55,11 +61,54 @@ body {
 header {
    background: white;
    border-bottom: 2px solid #9d9d9c;
+   padding: 1px;
+}
+
+header nav {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 16px;
+  margin: 20px;
+}
+
+header nav a {
+  margin: 10px;
 }
 
 .main-subhead {
   background: #e62a1b;
-  border-radius: 4%;
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: 2px solid #e62a1b;
+  border-radius: 50px;
+  margin: 15px 87px;
+  padding: 0;
+  color: white;
+}
+
+.daily-recipe-content h1 {
+  font-family: 'Sorts Mill Goudy', serif; 
+  font-size: 24px;
+  line-height: 1.2;
+}
+
+.daily-recipe-content p {
+  font-family: 'Sorts Mill Goudy', serif; 
+  font-size: 16px;
+  line-height: 1.2; 
+}
+
+.daily-recipe-content h1,
+.daily-recipe-content p {
+  padding: 0 15px;
+}
+
+.creator-name {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 15px;
 }
 
 header, main {
@@ -68,4 +117,54 @@ header, main {
 
 main div { 
   background: #ebede7;
+}
+
+div {
+  padding: 15px 15px;
+}
+
+div h1  {
+  font-family: 'Sorts Mill Goudy', serif; 
+  font-size: 20px;
+  text-align: left;
+}
+
+.weekly-content {
+  background: white;
+  margin: 15px 0;
+  border: 1px solid #9d9d9c;
+}
+
+hr {
+  border: 1px solid black;
+}
+
+article p {
+  margin: 10px;
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+img {
+  display: block;
+}
+
+footer {
+  background: black;
+  color: white;
+  padding: 15px 15px;
+}
+
+footer h1 {
+  font-family: 'Sorts Mill Goudy', serif; 
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+footer a {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 16px;
 }
